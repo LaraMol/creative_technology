@@ -1,0 +1,111 @@
+/* Body styling */
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: cursive;
+}
+
+/* H1 font size styling */
+H1{
+    font-size: 50px;
+    color:#41499f;
+}
+
+h3{
+    font-size:30px;
+    color:#f6ff00;
+}
+
+/* Navbar css */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-image: url(img/volleyball_net.png);
+    background-size: cover;
+    padding: 4px;
+    margin: -10px;
+}
+
+/* Button floats to the left in the navbar */
+ul li {
+    float: left;
+}
+
+/* Button styling */
+ul li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* If hovered it changes color to yellow */
+ul li a:hover {
+    background-color: #f6ff00;
+}
+
+/* Ball rotating */
+.rotate {
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+}
+
+/* Volleybal Height */
+.image1 {
+    height: 300px;
+
+}
+
+/* Styling for the container grid */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    display: grid;
+    padding: 46px;
+    border-style: solid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+.one {
+    border-style: solid;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.two {
+    border-style: solid;
+    grid-column: 2 / 4;
+}
+.three {
+    border-style: solid;
+    grid-row: 2 / 5;
+    grid-column: 1;
+}
+.four {
+    border-style: solid;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+#background_picture {
+    background-color: #f6ff00;
+}
+
+
+

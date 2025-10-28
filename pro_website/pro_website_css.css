@@ -1,0 +1,258 @@
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* --- Top Info Bar --- */
+    .info-bar {
+        background-color: #fff;
+        font-size: 13px;
+        padding: 5px 0;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    .info-bar span {
+        margin: 0 15px;
+        color: #0000a3;;
+    }
+
+    .text_change{
+        position: relative;
+        right: 84px;
+        color: #0000a3;
+    }
+
+    .info-bar .highlight {
+        font-weight: bold;
+        
+    }
+
+    .info-bar .select {
+        color: #01ad3a;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    /* --- Main Blue Header --- */
+    .header {
+        background-color: #0000a3;
+        color: white;
+        padding: 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .logo{
+        width:6vh;
+    }
+
+    .header-content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* --- Search Bar --- */
+    .search-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .search-container input {
+        width: 60%;
+        max-width: 600px;
+        padding: 16px 45px 16px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .search-container i {
+        position: absolute;
+        right: calc(20% + -7px);
+        font-size: 18px;
+        color: #333;
+        background: transparent;
+    }
+
+    /* --- Right Icons --- */
+    .header-icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .header-icons span {
+        cursor: pointer;
+    }
+
+    /* --- White Navbar --- */
+    .nav-bar {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .nav-left, .nav-right {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .nav-item {
+        cursor: pointer;
+        font-size:14px
+
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
+    }
+
+    .flag {
+        width: 20px;
+        height: 14px;
+        background: linear-gradient(to bottom, rgb(176, 29, 29) 33%, white 33%, white 66%, rgb(28, 28, 162) 66%);
+        border: 1px solid #ccc;   
+    }
+
+    /* --- Main Content --- */
+    .main-content {
+        max-width: 1200px;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .banner {
+        position: relative;
+        background-image: url("img/afbeeldingillustrator.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        padding: 31px;
+        text-align: left;
+        background-size: contain;
+        background-color: #ffe5cc;
+        color: #0015a5;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   /* fills container nicely */
+        object-position: center; /* centers the image */
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+        color: #0015a5;
+    }
+
+
+    .banner h1 {
+        font-size: 60px;
+        color: #0015a5;
+        margin: 0;
+        font-weight: 800;
+    }
+
+    .banner .p {
+        font-size: 48px;
+        color: #0015a5;
+    }
+
+    .banner button {
+        background-color: #0026dd;
+        color: white;
+        padding: 20px 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .banner button:hover {
+        background-color: #001a99;
+    }
+
+    .banner1{
+        position: relative;
+        background-image: url(img/Open.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        padding: 121px;
+        text-align: left;
+        background-color: #ffe5cc;
+        color: #0015a5;
+        top: 46px;
+    }
+    
+    .text_css{
+    position: relative;
+    top: 51px;
+    display: flex;
+    left: 81px;
+    color: grey;
+    }
+
+    .h1_css{
+        font-size: 40px;
+        display: flex;
+        /* left: 81px; */
+        margin-top:50px
+    }
+
+    .banner2{
+        position: relative;
+        background-image: url(img/Schermafbeelding\ 2025-10-27\ 214319.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        padding: 188px;
+        text-align: left;
+        background-color: #ffe5cc;
+        color: #0015a5;
+        top: 46px;
+    }
+    
+        .banner3{
+        position: relative;
+        background-image: url(img/haalmijweg.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        padding: 98px;
+        text-align: left;
+        background-color: #ffe5cc;
+        color: #0015a5;
+        top: 46px;
+    }
